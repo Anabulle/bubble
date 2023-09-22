@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+.rejoindre {
+  background-image: url("../img/fond.png");
+  font-family: "Oleo Script", cursive;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+.rejoindre h1 {
+  font-size: 10rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 150px 50px 150px;
+  line-height: 200px;
+}
+.rejoindre button {
+  padding: 10px 20px;
+  font-size: 5rem;
+  background-color: #4AA3A2;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  transition: all 1s ease-out;
+}
+.rejoindre button a {
+  font-family: "Oleo Script", cursive;
+  text-decoration: none;
+  color: #ffffff;
+}
+.rejoindre button:hover {
+  background-color: #ffffff;
+}
+.rejoindre button:hover a {
+  color: #4AA3A2;
+}
+
+h2 {
+  font-family: "Oleo Script", cursive;
+  color: #CA3C66;
+  font-size: 5rem;
+  margin: 20px;
+  padding-left: 50px;
+}
+
+p, figcaption {
+  color: #CA3C66;
+}
+
+.groupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.groupe .card {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  background-color: #A7E0E0;
+  padding: 20px;
+  border-radius: 15px;
+}
+.groupe .card img {
+  margin: auto;
+}
+.groupe .card p {
+  margin: 20px;
+  font-size: 2rem;
+  font-family: "Oleo Script", cursive;
+}
+.groupe .card figcaption {
+  margin: 20px 20px 50px 20px;
+  font-size: 1.2rem;
+}
+.groupe .card button {
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #4AA3A2;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  transition: all 1s ease-out;
+}
+.groupe .card button a {
+  font-family: "Oleo Script", cursive;
+  text-decoration: none;
+  color: #ffffff;
+}
+.groupe .card button:hover {
+  background-color: #ffffff;
+}
+.groupe .card button:hover a {
+  color: #4AA3A2;
+}
+
+.event article {
+  background-color: #CA3C66;
+  width: 90%;
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+}
+.event h3, .event p {
+  font-family: "Oleo Script", cursive;
+  color: #ffffff;
+  margin: 20px;
+  padding: 10px;
+}
+.event p {
+  font-size: 1.5rem;
+}
+.event h3 {
+  font-size: 2rem;
+}
+.event button {
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #DB6A8F;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  transition: all 1s ease-out;
+}
+.event button a {
+  font-family: "Oleo Script", cursive;
+  text-decoration: none;
+  color: #ffffff;
+}
+.event button:hover {
+  background-color: #ffffff;
+}
+.event button:hover a {
+  color: #CA3C66;
+}
+
+.createur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 10px;
+  margin-top: -30px;
+}
+.createur img {
+  width: 50px;
+}
+.createur img p {
+  font-size: 1.3rem;
+}
+
+.contact {
+  background-image: url("../img/bannière.png");
+  font-family: "Oleo Script", cursive;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  margin-top: 50px;
+}
+.contact p {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.contact button {
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  transition: all 1s ease-out;
+}
+.contact button a {
+  font-family: "Oleo Script", cursive;
+  text-decoration: none;
+  color: #CA3C66;
+}
+.contact button:hover {
+  background-color: #DB6A8F;
+}
+.contact button:hover a {
+  color: #ffffff;
+}/*# sourceMappingURL=content-index.css.map */

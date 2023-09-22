@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+form {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-size: 1.5rem;
+  color: #4AA3A2;
+  font-family: "Oleo Script", cursive;
+  margin: 10px 0 10px 0;
+}
+form input {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 3px solid #CA3C66;
+  border-radius: 15px;
+}
+form textarea {
+  padding: 50px;
+  border: 3px solid #CA3C66;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+form button {
+  width: 300px;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #4AA3A2;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  transition: all 1s ease-out;
+  font-family: "Oleo Script", cursive;
+  text-decoration: none;
+  color: #ffffff;
+}
+form button:hover {
+  background-color: #DB6A8F;
+  color: #ffffff;
+}/*# sourceMappingURL=contact.css.map */
